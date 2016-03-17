@@ -1,3 +1,3 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
-RUN apk update && apk add bash git curl jq
+RUN apt-get update && apt-get install --no-install-recommends -y git curl jq ssh ca-certificates
