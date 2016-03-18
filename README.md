@@ -4,3 +4,4 @@ Docker image with the following tools:
 * git
 * ssh
 * jq
+*
